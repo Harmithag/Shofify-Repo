@@ -1,0 +1,16 @@
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\ShoppingSiteData.dll
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\ShoppingSiteData.pdb
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Security.AccessControl.dll
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Security.Permissions.dll
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Security.Principal.Windows.dll
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Security.AccessControl.xml
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Security.Permissions.xml
+D:\ShoppingSites\ShoppingSiteData\bin\Debug\System.Security.Principal.Windows.xml
+D:\ShoppingSites\ShoppingSiteData\obj\Debug\ShoppingSiteData.csprojAssemblyReference.cache
+D:\ShoppingSites\ShoppingSiteData\obj\Debug\ShoppingSiteData.csproj.CoreCompileInputs.cache
+D:\ShoppingSites\ShoppingSiteData\obj\Debug\ShoppingSiteData.csproj.CopyComplete
+D:\ShoppingSites\ShoppingSiteData\obj\Debug\ShoppingSiteData.dll
+D:\ShoppingSites\ShoppingSiteData\obj\Debug\ShoppingSiteData.pdb

@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="USGClient.MasterPages.Main" %>
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head runat="server">
+    <title>Online shoppy E-Commerce website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        ul#mainMenu i{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 login-section-wrapper">
+    <form id="Form" runat="server">
+        <div class="body">
+            <header id="header">
+            	<div class="container">
+					<h1 class="logo">
+						<a href="Products?UID=<%=Request.QueryString["UID"]%>&ID=1" class="js-logo-clone">Online shoppy</a>
+					</h1>
+					<div class="language">
+						<div class="language-object" ></div>
+					</div>
+					
+				</div>
+				
+			</header>
+            <div role="main" class="main">
+                <section class="page-top basic">
+					<div class="page-top-info container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="breadcrumb">
+                                    <li>
+                                        <asp:ContentPlaceHolder ID="cphBreadCrumbs" runat="server"></asp:ContentPlaceHolder>
+                                    </li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8">
+								<asp:ContentPlaceHolder ID="cphPageTitle" runat="server"></asp:ContentPlaceHolder>
+							</div>
+                            
+						</div>
+					</div>
+				</section>
+                <div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="dnn_contentPane">
+								<div class="DnnModule DnnModule-DNN_HTML DnnModule-960">
+									<a name="960"></a>
+									<div id="dnn_ctr960_ContentPane">
+										<!-- Start_Module_960 -->
+										<div id="dnn_ctr960_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+											<div id="dnn_ctr960_HtmlModule_lblContent" class="Normal">
+                                                <asp:ContentPlaceHolder ID="cphMainContent" runat="server"></asp:ContentPlaceHolder>
+											</div>
+										</div>
+										<!-- End_Module_960 -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+           
+        </div>
+    
+ </form>
+</div>
+ </div>
+ <div class="col-sm-6 px-0 d-none d-sm-block">
+     <img src="images/login.jpg" alt="login image" class="login-img">
+ </div>
+        </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
